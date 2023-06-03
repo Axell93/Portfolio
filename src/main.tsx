@@ -4,7 +4,6 @@ import App from "./App.tsx";
 import { Home } from "./pages/home.tsx";
 import { About } from "./pages/about.tsx";
 import { Work } from "./pages/work.tsx";
-import { Contact } from "./pages/contact.tsx";
 import "./index.css";
 import { ThemeProvider } from "./lib/theme-context.tsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
