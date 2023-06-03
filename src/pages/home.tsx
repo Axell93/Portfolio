@@ -5,7 +5,7 @@ export const Home = () => {
   return (
     <>
       <div>
-        <div className="flex justify-start mt-12">
+        <div className="flex justify-start mt-12 ml-[-10px] sm:ml-0">
           <div className="font-[proximanova] translate-x-[-300%] animate-slide-in-text bg-clip-text text-transparent text-[40px] md:text-[80px] sm:text-[65px] bg-gradient-to-r from-[#2c3e50] to-[#4ca1af]">
             Websites
           </div>
@@ -13,7 +13,7 @@ export const Home = () => {
             Reimagined
           </div>
         </div>
-        <div className="text-[color:var(--foreground)] text-xl md:w-[75%] sm:w-4/6 mx-9 font-sans text-justify sm:text-left">
+        <div className="text-[color:var(--foreground)] text-xl md:w-[75%] sm:w-4/6 mx-9 font-sans text-left">
           <p>
             As a highly skilled full-stack web developer, I specialize in
             JavaScript, Java, and Dotnet languages, with proficiency in MySQL
