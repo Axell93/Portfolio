@@ -1,0 +1,16 @@
+.active {
+  background-color: azure;
+  padding: 2px 15px;
+  border-radius: 16px;
+}
+
+.dark .active {
+  background-color: #42526f;
+  padding: 2px 15px;
+  border-radius: 16px;
+}
+
+.navbar .logo {
+  height: 80px;
+  width: 250px;
+}

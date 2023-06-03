@@ -1,0 +1,94 @@
+.float {
+  position: fixed;
+  bottom: 40px;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.my-float {
+  margin-top: 22px;
+}
+#header:before {
+  content: "";
+  vertical-align: middle;
+  height: 100%;
+}
+
+#header:after {
+  content: "";
+  display: block;
+}
+#header {
+  flex-direction: column;
+  display: flex;
+  padding: 5px 3px;
+  padding-left: 4px;
+}
+
+.icon {
+  box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
+  color: #000;
+  border-radius: 50%;
+  transition: transform 0.5s;
+}
+
+.socialwrap {
+  box-shadow: inset -6px -5px 9px 11px rgba(0, 0, 0, 0.05) !important;
+  overflow: hidden;
+  transition: transform 0.5s;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50px;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+}
+.social {
+  transition: color 0.5s !important;
+  z-index: 10;
+  text-align: center;
+  text-decoration: none;
+  align-self: center;
+  color: #000;
+}
+.socialwrap::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: -90px;
+  left: 0;
+  position: absolute;
+  transition: 0.5s !important;
+}
+.linkedin::after {
+  background: #000;
+  background: linear-gradient(-45deg, #0a66c2, #5393d4);
+}
+.github::after {
+  background: #000;
+  background: linear-gradient(-45deg, #181717, #5d5c5c);
+}
+
+.socialwrap:hover::after {
+  top: 0;
+  color: white !important;
+}
+.socialwrap:hover {
+  transform: translateY(-10px);
+}
+
+.socialwrap:hover .social path {
+  color: #fff !important;
+  fill: white;
+}
+.dark .social path {
+  color: #fff;
+  fill: #fff;
+}
+.dark .socialwrap {
+  box-shadow: -3px -1px 15px 4px rgba(211, 211, 211, 0.2) !important;
+  background-color: #243b55;
+}

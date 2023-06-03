@@ -1,0 +1,33 @@
+@import "./styles/index.css";
+@font-face {
+  font-family: "proximanova";
+  src: url("../public/fonts/Proxinova/Fontspring-DEMO-proximanovacond-regular.otf")
+    format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "proximanovabold";
+  src: url("../public/fonts/Proxinova/Fontspring-DEMO-proximanovacond-bold.otf")
+    format("otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: revert;
+  font-weight: normal;
+}
+.page {
+  transition: all 3s ease-in-out;
+  transform: translateX(0);
+  -webkit-transition: all 3s ease-in-out;
+  --tw-enter-translate-x: 100%;
+  animation-name: enter;
+}

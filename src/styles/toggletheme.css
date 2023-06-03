@@ -1,0 +1,28 @@
+.SwitchRoot {
+  box-shadow: 3px 3px 4px #e4e4e7, -3px -3px 4px #fff;
+}
+.SwitchThumb {
+  transition: 0.8s;
+}
+
+.dark .SwitchRoot {
+  background: #151d2a;
+  box-shadow: 3px 3px 3px #0e131b, -3px -3px 3px #1c2739;
+}
+
+.dark .light {
+  color: #fafafa;
+}
+
+.dark .night {
+  color: #0e131b;
+}
+
+.dark .SwitchThumb {
+  background-color: #fafafa;
+}
+.light,
+.night {
+  height: inherit !important;
+  width: inherit !important;
+}

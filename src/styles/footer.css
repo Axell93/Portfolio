@@ -1,0 +1,41 @@
+.footer {
+  background-image: linear-gradient(
+    to right top,
+    #3a7089,
+    #356f86,
+    #316e82,
+    #2d6d7f,
+    #2a6c7b,
+    #2c6b77,
+    #2e6973,
+    #30686f,
+    #36666a,
+    #3b6566,
+    #406362,
+    #44615f
+  );
+  color: #f5f5f5;
+}
+.footer-wave-path {
+  fill: white;
+}
+.footer-right svg path {
+  fill: white;
+}
+
+.dark .footer {
+  background-image: linear-gradient(to top, #141e30, #243b55);
+  color: #f5f5f5;
+}
+
+.dark .footer-wave-path {
+  fill: #141e30;
+}
+
+.footer-left svg {
+  height: 80px;
+  width: 200px;
+}
+.contact-btn {
+  box-shadow: 3px 3px 13px #759aac, -5px -2px 9px 0px #88a9b8;
+}
