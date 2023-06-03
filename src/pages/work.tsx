@@ -86,7 +86,7 @@ export const Work = () => {
           <Button variant="link" size="sm">
             <a
               style={{ fontStyle: "italic" }}
-              href="https://github.com/Axell93/UI-Components"
+              href="https://github.com/Axell93/Portfolio"
               target="_blank"
               rel="noreferrer"
             >
