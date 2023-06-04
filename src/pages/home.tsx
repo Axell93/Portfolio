@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "../components/card";
 import LabelImportantIcon from "@mui/icons-material/LabelImportant";
+import { Analytics } from "@vercel/analytics/react";
 
 export const Home = () => {
   return (
@@ -83,6 +84,7 @@ export const Home = () => {
           </Card>
         </div>
       </div>
+      <Analytics />
     </>
   );
 };
